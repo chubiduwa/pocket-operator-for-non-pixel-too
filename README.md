@@ -19,13 +19,14 @@ with the Google Play **PAIRIP** protection layer removed, rebuilt so it installs
 
 ## Install
 
-1. **Uninstall the Play Store version first** (if present). This build keeps the original package
+1. Download [POPixel-v1.3.0.apk](https://github.com/chubiduwa/pocket-operator-for-non-pixel-too/releases/download/v1/POPixel-v1.3.0.apk)
+2. **Uninstall the Play Store version first** (if present). This build keeps the original package
    name but is signed with a different key, so Android will refuse to update over it.
-2. Copy the APK to the device and open it, or:
+3. Copy the APK to the device and open it, or:
    ```
    adb install POPixel-v1.3.0.apk
    ```
-3. Launch **PO Pixel**. On first run it unpacks its assets (song, tutorial videos, ~45 MB of
+4. Launch **PO Pixel**. On first run it unpacks its assets (song, tutorial videos, ~45 MB of
    audio-engine and Unity data) — the splash screen can sit for 20–40 s before the tutorial appears.
 
 Requirements: Android 11+, a 64-bit ARM CPU, OpenGL ES 2.0, and roughly 400 MB free storage
