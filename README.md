@@ -12,8 +12,15 @@ with the Google Play **PAIRIP** protection layer removed, rebuilt so it installs
 | Min / target SDK | 30 (Android 11) / 35 |
 | ABI | `arm64-v8a` only |
 | Download size | 109 MB (≈235 MB installed) |
-| SHA-256 | `f9d2b3eb26540c842cc7a0469b8c4778e0dbbc2955fcd883ced7a03a612b8394` |
+| SHA-256 | `a109b407f034e355e52e5d61bd7762a54fc43978c4e2c5787eae83a737144860` |
 | Signing | `CN=PO Debug` (self-signed, see caveats) |
+
+---
+
+## Changelog
+
+* v1 (2026-11-10): initial version
+* v2 (2026-11-11): fixed video import
 
 ---
 
@@ -104,7 +111,7 @@ Check the download with:
 
 ```
 shasum -a 256 POPixel-v1.3.0.apk
-# f9d2b3eb26540c842cc7a0469b8c4778e0dbbc2955fcd883ced7a03a612b8394
+# a109b407f034e355e52e5d61bd7762a54fc43978c4e2c5787eae83a737144860
 ```
 
 ---
