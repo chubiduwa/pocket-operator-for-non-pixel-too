@@ -26,7 +26,7 @@ with the Google Play **PAIRIP** protection layer removed, rebuilt so it installs
 
 ## Install
 
-1. Download [POPixel-v1.3.0.apk](https://github.com/chubiduwa/pocket-operator-for-non-pixel-too/releases/download/v1/POPixel-v1.3.0.apk)
+1. Download [POPixel-v1.3.0-v2.apk](https://github.com/chubiduwa/pocket-operator-for-non-pixel-too/releases/download/v2/POPixel-v1.3.0-v2.apk)
 2. **Uninstall the Play Store version first** (if present). This build keeps the original package
    name but is signed with a different key, so Android will refuse to update over it.
 3. Copy the APK to the device and open it, or:
