@@ -1,6 +1,6 @@
 # PO Pixel 1.3.0 — standalone rebuild
 
-`POPixel-v1.3.0.apk` is **Pocket Operator for Pixel 1.3.0** (the real app, unmodified content)
+`POPixel-v1.3.0-v3.apk` is **Pocket Operator for Pixel 1.3.0** (the real app, unmodified content)
 with the Google Play **PAIRIP** protection layer removed, rebuilt so it installs and runs on
 **any arm64 Android device — no root, no Pixel, no Play Store licence**.
 
@@ -12,7 +12,7 @@ with the Google Play **PAIRIP** protection layer removed, rebuilt so it installs
 | Min / target SDK | 30 (Android 11) / 35 |
 | ABI | `arm64-v8a` only |
 | Download size | 109 MB (≈235 MB installed) |
-| SHA-256 | `a109b407f034e355e52e5d61bd7762a54fc43978c4e2c5787eae83a737144860` |
+| SHA-256 | `e969f2d8a7ab85e64eef37634b70b0dd4a082eced981584857921aef0828bcd2` |
 | Signing | `CN=PO Debug` (self-signed, see caveats) |
 
 ---
@@ -21,17 +21,18 @@ with the Google Play **PAIRIP** protection layer removed, rebuilt so it installs
 
 * v1 (2026-11-10): initial version
 * v2 (2026-11-11): fixed video import
+* v3 (2026-11-11): fixed tutorial drum video import
 
 ---
 
 ## Install
 
-1. Download [POPixel-v1.3.0-v2.apk](https://github.com/chubiduwa/pocket-operator-for-non-pixel-too/releases/download/v2/POPixel-v1.3.0-v2.apk)
+1. Download [POPixel-v1.3.0-v3.apk](https://github.com/chubiduwa/pocket-operator-for-non-pixel-too/releases/download/v3/POPixel-v1.3.0-v3.apk)
 2. **Uninstall the Play Store version first** (if present). This build keeps the original package
    name but is signed with a different key, so Android will refuse to update over it.
 3. Copy the APK to the device and open it, or:
    ```
-   adb install POPixel-v1.3.0.apk
+   adb install POPixel-v1.3.0-v3.apk
    ```
 4. Launch **PO Pixel**. On first run it unpacks its assets (song, tutorial videos, ~45 MB of
    audio-engine and Unity data) — the splash screen can sit for 20–40 s before the tutorial appears.
@@ -110,8 +111,8 @@ loaded.
 Check the download with:
 
 ```
-shasum -a 256 POPixel-v1.3.0.apk
-# a109b407f034e355e52e5d61bd7762a54fc43978c4e2c5787eae83a737144860
+shasum -a 256 POPixel-v1.3.0-v3.apk
+# e969f2d8a7ab85e64eef37634b70b0dd4a082eced981584857921aef0828bcd2
 ```
 
 ---
